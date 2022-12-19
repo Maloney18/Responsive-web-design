@@ -51,8 +51,19 @@
     color: var(--all-h3);
 }
 
+@media screen and (min-width: 610px) {
+    .foot-right-cont {
+        justify-content: flex-end;
+        gap: 10px;
+    }
+}
+
 @media screen and (min-width: 1040px) {
     .footer {
         flex-direction: row;
+    }
+
+    .foot-right-cont {
+        justify-content: space-between;
     }
 }

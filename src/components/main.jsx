@@ -34,7 +34,7 @@ const Main = () => {
                 </div>
                 <div className='new-words'>
                     <p className='h3'>Is VC Funding Drying Up?</p>
-                    <p>Private funding by VC firms is down 50% YOY. We take a look at what taht means.</p>
+                    <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
                 </div>
             </div>
         </section>
