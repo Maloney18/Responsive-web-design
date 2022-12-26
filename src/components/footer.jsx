@@ -13,7 +13,7 @@ const Footer = () => {
                     <p className='normal-p'>What happens when old PCs are given modern upgrades?</p>
                 </div>
             </div>
-            <div className="footer-items">
+            <div className="footer-items special">
                 <div className="foot-img-cont">
                     <img src="images/image-top-laptops.jpg" alt="" className="foot-img" />
                 </div>

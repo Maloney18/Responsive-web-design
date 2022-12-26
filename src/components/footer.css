@@ -3,12 +3,15 @@
     flex-direction: column;
     gap: 20px;
     padding-top: 30px;
+    width: min(100%, 750px);
+    margin: auto;
 }
 
 .footer-items {
     display: flex;
     gap: 15px;
     height: 15vh;
+    max-width: 380px;
 }
 
 .foot-img-cont {
@@ -52,14 +55,24 @@
 }
 
 @media screen and (min-width: 610px) {
-    .foot-right-cont {
-        justify-content: flex-end;
-        gap: 10px;
+    .special {
+        align-self: flex-end;
+        text-align: right;
+        flex-direction: row-reverse;
     }
 }
 
 @media screen and (min-width: 1040px) {
+
     .footer {
+        flex-direction: row;
+        margin: unset;
+        width: 100%;
+    }
+    
+    .special {
+        align-self: unset;
+        text-align: left;
         flex-direction: row;
     }
 

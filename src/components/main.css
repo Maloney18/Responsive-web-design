@@ -71,6 +71,12 @@
     gap: 10px;
 }
 
+.pack-new-word {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .new {
     color: var(--new);
     font-size: 25px;
@@ -128,8 +134,20 @@
         font-size: 35px;
     }
 
+    .pack-new-word {
+        flex-direction: row;
+    }
+
     .know-more {
         width: 50%;
+    }
+
+    .border {
+        padding: 15px 15px;
+        border-top: none;
+        border-bottom: none;
+        border-left: 1px solid var(--all-h3);
+        border-right: 1px solid var(--typo);
     }
 }
 
@@ -160,6 +178,18 @@
         gap: 0;
         height: 100%;
         justify-content: space-between;
+    }
+
+    .pack-new-word {
+        flex-direction: column;
+    }
+
+    .border {
+        padding: 15px 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid var(--all-h3);
+        border-bottom: 1px solid var(--typo);
     }
 
     .no-image-part {

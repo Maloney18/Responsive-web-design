@@ -22,20 +22,23 @@ const Main = () => {
             </div>
 
             <div className="no-image-part">
-                <h2 className='new'>New</h2>
+                <h2 className='new'>New</h2> 
 
-                <div className='new-words'>
-                    <p className='h3'>Hydrogen VS Electric Cars</p>
-                    <p>Will Hydrogen-fueled cars ever catch up to EVs?</p>
+                <div className="pack-new-word">
+                    <div className='new-words'>
+                        <p className='h3'>Hydrogen VS Electric Cars</p>
+                        <p>Will Hydrogen-fueled cars ever catch up to EVs?</p>
+                    </div>
+                    <div className='new-words border'>
+                        <p className='h3'>The Downsides of AI Artistry</p>
+                        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                    </div>
+                    <div className='new-words'>
+                        <p className='h3'>Is VC Funding Drying Up?</p>
+                        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                    </div>
                 </div>
-                <div className='new-words border'>
-                    <p className='h3'>The Downsides of AI Artistry</p>
-                    <p>What are the possible adverse effects of on-demand AI image generation?</p>
-                </div>
-                <div className='new-words'>
-                    <p className='h3'>Is VC Funding Drying Up?</p>
-                    <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-                </div>
+
             </div>
         </section>
     )
